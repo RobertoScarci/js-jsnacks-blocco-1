@@ -9,4 +9,10 @@ for ( let i = 0; i <= 20; i = i + 2){
     listElement.appendChild(cardElement)
 
     console.log(i)
+
+    if( i > 8 ){
+        cardElement.className = 'text-blue'
+    } else {
+        cardElement.className = 'text-yellow'
+    }
 }
