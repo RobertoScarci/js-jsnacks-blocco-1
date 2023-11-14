@@ -1,7 +1,7 @@
 
 
-const firstAge= prompt('Scrivi la tua età')
-const secondAge= prompt('Scrivi gli anni del tuo migliore amico')
+const firstAge= prompt('Scrivi la tua età');
+const secondAge= prompt('Scrivi gli anni del tuo migliore amico');
 
 if ( firstAge > secondAge){
     console.log ('Sei più grande del tuo amico')

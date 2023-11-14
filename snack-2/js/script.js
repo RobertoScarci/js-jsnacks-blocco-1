@@ -4,12 +4,10 @@ const  listElement = document.querySelector('div.list')
 
 for ( let i = 1; i < 7; i++){
     const cardElement = document.createElement('h2')
-    cardElement.className = 'number'
     cardElement.innerHTML = i
 
     listElement.appendChild(cardElement)
 
-    console.log(cardElement)
 
     if( i % 2 == 0){
         cardElement.className = 'text-green'

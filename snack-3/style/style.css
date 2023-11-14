@@ -1,7 +1,9 @@
 .text-blue{
     color: blue;
+    text-align: center;
 }
 
 .text-yellow{
-    color: yellow;
+    color: yellowgreen;
+    text-align: center;
 }
